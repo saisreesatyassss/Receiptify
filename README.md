@@ -80,7 +80,6 @@ Built exclusively with **Google AI technologies (Gemini, Vertex AI Agent Builder
 
 
 
-````markdown
 ## 🏗 Solution Architecture  
 
     ```mermaid
