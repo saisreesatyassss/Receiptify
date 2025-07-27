@@ -1,0 +1,6 @@
+flask
+gunicorn
+google-cloud-vision
+google-cloud-aiplatform
+pyzbar
+pillow
