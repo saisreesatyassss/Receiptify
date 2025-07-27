@@ -82,19 +82,7 @@ Built exclusively with **Google AI technologies (Gemini, Vertex AI Agent Builder
 
 ## 🏗 Solution Architecture  
 
-    ```mermaid
-graph TD
-    A[Flutter Mobile App] -->|Uploads receipt| B[Gemini Vision API]
-    B -->|Extracted data| C[Firestore Database]
-    A -->|Voice/Text query| D[Vertex AI Agent Builder]
-    D -->|Insights & Suggestions| A
-    C -->|Spend Analysis| E[Gemini Pro - Vertex AI]
-    E -->|Predictions & Alerts| D
-    D -->|Live Wallet Pass| F[Google Wallet API]
-    F -->|Interactive passes| A
-    E -->|Budget nudges| G[Firebase Cloud Messaging]
-    G -->|Notification| A
-    ````
+
 
 ---
 
