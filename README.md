@@ -78,8 +78,9 @@ Built exclusively with **Google AI technologies (Gemini, Vertex AI Agent Builder
 - Level up, unlock **savings achievements**, compete on leaderboards  
 - Turn finance into an **RPG-style journey**  
 
----
 
+
+````markdown
 ## 🏗 Solution Architecture  
 
 ```mermaid
@@ -93,22 +94,50 @@ graph TD
     D -->|Live Wallet Pass| F[Google Wallet API]
     F -->|Interactive passes| A
     E -->|Budget nudges| G[Firebase Cloud Messaging]
-    G -->|Notifications| A
+    G -->|Notification| A
+````
 
-### Setup
-1. Clone the repository:
-    ⁠bash
-   git clone https://github.com/saisreesatyassss/Receiptify.git
-   cd Receiptify/receiptify_flutter_app
-⁠ `
+---
 
-2. Install dependencies:
+## ⚙ Setup
 
-    ⁠bash
-   flutter pub get
-   
-⁠ 3. Configure Firebase (replace `google-services.json` for Android and `GoogleService-Info.plist` for iOS).
-4. Run the app:
+### 1. Clone the repository:
 
-    ⁠bash
-   flutter run
+```bash
+git clone https://github.com/saisreesatyassss/Receiptify.git
+cd Receiptify/receiptify_flutter_app
+```
+
+### 2. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+### 3. Configure Firebase
+
+Replace:
+
+* `android/app/google-services.json`
+* `ios/Runner/GoogleService-Info.plist`
+
+with your Firebase project configuration files.
+
+### 4. Run the app:
+
+```bash
+flutter run
+```
+
+---
+
+## 🔑 Tech Stack
+
+* **Flutter** (Mobile App)
+* **Firebase** (Firestore, Authentication, Cloud Messaging)
+* **Google Cloud Vertex AI** (Insights & Agent Builder)
+* **Gemini Vision API** (Receipt OCR & Analysis)
+* **Google Wallet API** (Digital Passes)
+
+```
+
