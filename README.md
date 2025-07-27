@@ -83,6 +83,7 @@ Built exclusively with **Google AI technologies (Gemini, Vertex AI Agent Builder
 ## 🏗 Solution Architecture  
 
 
+![Solution Architecture](https://github.com/saisreesatyassss/Receiptify/raw/main/Mermaid%20Chart.svg)
 
 ---
 
