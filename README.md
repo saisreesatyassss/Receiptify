@@ -83,7 +83,7 @@ Built exclusively with **Google AI technologies (Gemini, Vertex AI Agent Builder
 ````markdown
 ## 🏗 Solution Architecture  
 
-```mermaid
+    ```mermaid
 graph TD
     A[Flutter Mobile App] -->|Uploads receipt| B[Gemini Vision API]
     B -->|Extracted data| C[Firestore Database]
@@ -95,7 +95,7 @@ graph TD
     F -->|Interactive passes| A
     E -->|Budget nudges| G[Firebase Cloud Messaging]
     G -->|Notification| A
-````
+    ````
 
 ---
 
